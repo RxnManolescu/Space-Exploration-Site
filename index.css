@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: Neuropolitical;
+    src: url(neuropolitical.otf);
+}
+
+body {
+    margin: 0;
+    color: #8662ea;
+    text-align: center;
+    font-family: Neuropolitical, sans-serif;
+}
+
+.site-wrapper {
+    height: 100vh;
+}
+
+#spacex-img {
+    width: 150px;
+    margin-top: auto;
+}
+
+.hero {
+    height: 80%;
+    background-image: url("./assets/galaxy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero h1 {
+    text-shadow: -2px 0px 2px white;
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6435e3;
+    background-color: white;
+    font-family: inherit;
+    color: inherit;
+    width: 50%;
+}
+
+span {
+    border-bottom: 4px solid white;
+}
+
+#footer {
+    margin-top: 30px;
+}
